@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#gallery {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#gallery h2 {
+    margin-bottom: 1em;
+}
+
+.slider {
+    width: 1000px;
+    height: 500px;
+    outline: 2px solid #333;
+    position: relative;
+    margin: 0 auto;
+}
+
+.slider > img {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+/*  
+ 현재 이미지 fadeIn
+ 다음 이미지 faedOut
+*/
+
+.prevBtn, .nextBtn {
+    padding: 5px;
+    margin: 10px 0;
+}
